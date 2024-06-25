@@ -60,8 +60,7 @@ const TestimonialOne = () => {
                 <h4 className='subtitle'>TESTIMONIALS</h4>
                 <h2 className='title'>OUR CLIENT’S FEEDBACK</h2>
                 <p className='content'>
-                  Dramatically enhance interactive metrics for reliable
-                  services. Proactively unleash fully researched e-commerce.
+                Hear What Our Clients Have to Say About Their Experience with Us
                 </p>
               </div>
             </div>
@@ -77,17 +76,15 @@ const TestimonialOne = () => {
                     />
                   </div>
                   <p>
-                    “Progressively strategize intermandated manufactured
-                    products after multidisci plinary sources. Conveniently
-                    iterate value-added systems with.”
+                    “Working with you has been a game-changer for our business. Their team’s expertise in light, middle, and heavy distillates is unparalleled.
+                     We’ve seen a significant improvement in our operations and client satisfaction. Highly recommend!”
                   </p>
                   <div className='client-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/testimonial/1.png' alt='Transpro' />
+                      {/* <img src='assets/img/testimonial/1.png' alt='Transpro' /> */}
                     </div>
                     <div className='details'>
-                      <h5>ANJELINA MATHEUS</h5>
-                      <p>Co-Founder</p>
+                      <h5>Ahmed S.</h5>
                     </div>
                   </div>
                 </div>
@@ -101,17 +98,15 @@ const TestimonialOne = () => {
                     />
                   </div>
                   <p>
-                    “Progressively strategize intermandated manufactured
-                    products after multidisci plinary sources. Conveniently
-                    iterate value-added systems with.”
+                    “consistently delivers top-quality products and exceptional service. Their commitment to excellence and innovation has
+                     made them our go-to partner for all our trading needs. Their team is professional, reliable, and a pleasure to work with”
                   </p>
                   <div className='client-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/testimonial/2.png' alt='Transpro' />
+                      {/* <img src='assets/img/testimonial/2.png' alt='Transpro' /> */}
                     </div>
                     <div className='details'>
-                      <h5>MONISH POUL</h5>
-                      <p>Co-Founder</p>
+                      <h5>Fatima A.</h5>
                     </div>
                   </div>
                 </div>
@@ -125,17 +120,15 @@ const TestimonialOne = () => {
                     />
                   </div>
                   <p>
-                    “Progressively strategize intermandated manufactured
-                    products after multidisci plinary sources. Conveniently
-                    iterate value-added systems with.”
+                    “We’ve been collaborating with Pavilion for several occasions, and their dedication to client satisfaction is evident in 
+                    every interaction. They offer comprehensive solutions and are always ready to go the extra mile. Truly a leader in the industry.”
                   </p>
                   <div className='client-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/testimonial/3.png' alt='Transpro' />
+                      {/* <img src='assets/img/testimonial/3.png' alt='Transpro' /> */}
                     </div>
                     <div className='details'>
-                      <h5>MICHEL CLACRK</h5>
-                      <p>Co-Founder</p>
+                      <h5>Omar H.</h5>
                     </div>
                   </div>
                 </div>
@@ -149,17 +142,14 @@ const TestimonialOne = () => {
                     />
                   </div>
                   <p>
-                    “Progressively strategize intermandated manufactured
-                    products after multidisci plinary sources. Conveniently
-                    iterate value-added systems with.”
+                    “Pavilion stands out for their quality and reliability. They have a deep understanding of the market and always provide superior products. Their professionalism and customer-focused approach have made a significant impact on our business success.”
                   </p>
                   <div className='client-wrap'>
                     <div className='thumb'>
-                      <img src='assets/img/testimonial/2.png' alt='Transpro' />
+                      {/* <img src='assets/img/testimonial/2.png' alt='Transpro' /> */}
                     </div>
                     <div className='details'>
-                      <h5>MONISH POUL</h5>
-                      <p>Co-Founder</p>
+                      <h5>Mohammed R.</h5>
                     </div>
                   </div>
                 </div>

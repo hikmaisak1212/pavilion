@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { FaPhoneAlt, FaPlay } from "react-icons/fa";
-import ModalVideo from "react-modal-video";
+import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const VideoAreaOne = () => {
-  const [isOpen, setOpen] = useState(false);
   return (
     <>
       {/*video-area start*/}
@@ -13,13 +11,7 @@ const VideoAreaOne = () => {
       >
         <div className='video-thumb-wrap '>
           <img src='assets/img/video/1.png' alt='Transpro' />
-          <span
-            className='video-play-btn cursor-pointer'
-            data-effect='mfp-zoom-in'
-            onClick={() => setOpen(true)}
-          >
-            <FaPlay />
-          </span>
+          
         </div>
 
         <div className='container'>
@@ -30,18 +22,19 @@ const VideoAreaOne = () => {
                 style={{ background: "url(assets/img/video/bg.png)" }}
               >
                 <div className='section-title style-white mb-0'>
-                  <h4 className='subtitle style-2'>LET’S TALK</h4>
                   <h2 className='title'>
-                    YOU NEED ANY HELP? GET FREE CONSULTATION
+                    NEED ANY HELP? GET CONSULTATION
                   </h2>
                 </div>
                 <div className='single-cta-wrap'>
+                  <Link to='tel:+971567909437'>
                   <div className='icon'>
                     <FaPhoneAlt />
                   </div>
+                  </Link>
                   <div className='details'>
-                    <h6>Have Any Question</h6>
-                    <h3>+19524357106</h3>
+                    {/* <h6>Have Any Question</h6> */}
+                    <h3>+971 56 790 9437</h3>
                   </div>
                 </div>
                 <Link className='btn btn-white' to='/contact'>
@@ -52,14 +45,6 @@ const VideoAreaOne = () => {
           </div>
         </div>
       </div>
-      {/*video-area end*/}
-      <ModalVideo
-        channel='youtube'
-        autoplay
-        isOpen={isOpen}
-        videoId='XM6kTQPzzpQ'
-        onClose={() => setOpen(false)}
-      />
     </>
   );
 };

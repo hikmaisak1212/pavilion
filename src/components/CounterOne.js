@@ -6,7 +6,7 @@ const CounterOne = () => {
   return (
     <>
       {/*fact-area start*/}
-      <div className='container'>
+      <div className='container' style={{paddingTop:'50px'}}>
         <div
           className='fact-counter-area'
           style={{ background: "url(assets/img/fact/bg.png)" }}
@@ -19,14 +19,13 @@ const CounterOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp delay={0} start={0} end={2000} />+
+                          <CountUp delay={0} start={0} end={20} />+
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <h5>PROJECT COMPLETE</h5>
-                <p>Conveniently impact front-end niches via maintainable.</p>
+                <h5>Years Of Experience</h5>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
@@ -36,14 +35,13 @@ const CounterOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp delay={0} start={0} end={100} />+
+                          <CountUp delay={0} start={0} end={25} />+
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <h5>BEST EMPLOYEES</h5>
-                <p>Conveniently impact front-end niches via maintainable.</p>
+                <h5>Expert Members</h5>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
@@ -53,14 +51,13 @@ const CounterOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp delay={0} start={0} end={450} />+
+                          <CountUp delay={0} start={0} end={50} />+
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <h5>WORLDWIDE CLIENTS</h5>
-                <p>Conveniently impact front-end niches via maintainable.</p>
+                <h5>Worldwide Clients</h5>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>
@@ -70,14 +67,13 @@ const CounterOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter'>
-                          <CountUp delay={0} start={0} end={80} />+
+                          <CountUp delay={0} start={0} end={160} />+
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <h5>WORLD AWARDS</h5>
-                <p>Conveniently impact front-end niches via maintainable.</p>
+                <h5>Projects Delivered</h5>
               </div>
             </div>
           </div>

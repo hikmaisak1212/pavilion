@@ -27,8 +27,7 @@ const FooterOne = () => {
                   </div>
                   <div className='details'>
                     <h6>OFFICE ADDRESS:</h6>
-                    <p>2245 Gilbert Ave, Cincinnati,</p>
-                    <p>OH 45206, United States</p>
+                    <p>Hamdan St, Block A Bodium Building, Abu Dhabi, UAE</p>
                   </div>
                 </div>
               </div>
@@ -39,8 +38,12 @@ const FooterOne = () => {
                   </div>
                   <div className='details'>
                     <h6>CONTACT US:</h6>
-                    <p>info.logic@transpro.com</p>
-                    <p>+1 800-226-4054</p>
+                    <Link to='mailto:ceo@pavilioninv.ae'>
+                    <p>ceo@pavilioninv.ae</p>
+                    </Link>
+                    <Link to='tel:+971567909437'>
+                    <p>+971 56 790 9437</p>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -51,8 +54,8 @@ const FooterOne = () => {
                   </div>
                   <div className='details'>
                     <h6>WORKING HOURS:</h6>
-                    <p>Weekdays - Mon-Fri: 8am-21pm</p>
-                    <p>Weekend - Sta &amp; Sun: Closed</p>
+                    <p>Weekdays - Mon-Sta: 8am-21pm</p>
+                    <p>Weekend - Sun: Closed</p>
                   </div>
                 </div>
               </div>
@@ -68,11 +71,9 @@ const FooterOne = () => {
                 </div>
                 <div className='details'>
                   <p>
-                    Quickly supply alternative strategic theme areas vis-a-vis
-                    B2C mindshare. Objectively repurpose stand-alone synergy via
-                    user-centric architectures.
+                  We stands as a prominent corporate entity headquartered in the United Arab Emirates, committed to upholding excellence across multiple sectors. 
                   </p>
-                  <ul className='social-media style-border'>
+                  {/* <ul className='social-media style-border'>
                     <li>
                       <a href='#'>
                         <FaFacebookF />
@@ -93,71 +94,39 @@ const FooterOne = () => {
                         <FaLinkedinIn />
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>
-            <div className='col-xl-2 col-md-6'>
-              <div className='widget widget_nav_menu'>
-                <h4 className='widget-title'>USEFULL LINKS</h4>
-                <ul>
-                  <li>
-                    <Link to='/about'>
-                      <FaArrowRight /> About Us
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to='/service'>
-                      <FaArrowRight /> Services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to='#'>
-                      <FaArrowRight /> Portfolio
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to='/blog'>
-                      <FaArrowRight />
-                      Blog
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to='/contact'>
-                      <FaArrowRight /> Contact Us
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className='col-xl-2 col-md-6'>
+
+            <div className='col-xl-4 col-md-6'>
               <div className='widget widget_nav_menu'>
                 <h4 className='widget-title'>OUR SERVICES</h4>
                 <ul>
                   <li>
-                    <a href='#'>
-                      <FaArrowRight /> Air Freight
-                    </a>
+                    <Link to='/service'>
+                      <FaArrowRight /> Onshore and Offshore Oil and Gas Fields 
+                    </Link>
                   </li>
                   <li>
-                    <a href='#'>
-                      <FaArrowRight /> Ocean Freight
-                    </a>
+                    <Link to='/service'>
+                      <FaArrowRight /> Para-Pharmaceutical Wholesale
+                    </Link>
                   </li>
                   <li>
-                    <a href='#'>
-                      <FaArrowRight /> Railway Freight
-                    </a>
+                    <Link to='/service'>
+                      <FaArrowRight /> Services Brokerage
+                    </Link>
                   </li>
                   <li>
-                    <a href='#'>
-                      <FaArrowRight /> Warehousing
-                    </a>
+                    <Link to='/service'>
+                      <FaArrowRight /> Fuel Supply Services
+                    </Link>
                   </li>
                   <li>
-                    <a href='#'>
-                      <FaArrowRight /> Distribution
-                    </a>
+                    <Link to='/service'>
+                      <FaArrowRight /> General Trading
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -166,12 +135,10 @@ const FooterOne = () => {
               <div className='widget widget_subscribe'>
                 <h4 className='widget-title'>SUBSCRIBE NOW</h4>
                 <p>
-                  Continually evolve worldwide vortals rather than process
-                  centric human capital. Subscribe for our latest news &amp;
-                  articles. and send message.
+                We aspire to become a frontrunner in the local market, delivering top-tier products and services, all while cultivating sustainable and mutually beneficial collaborations.
                 </p>
                 <div className='single-subscribe-inner'>
-                  <input type='text' placeholder='Email Address' />
+                <input type='text' placeholder='Email Address' style={{borderRadius:'12px', marginRight:'15px'}}/>
                   <a className='btn btn-base' href='#'>
                     <FaPaperPlane />
                   </a>

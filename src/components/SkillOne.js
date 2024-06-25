@@ -8,6 +8,7 @@ const SkillOne = () => {
         className='skill-area pd-top-120 pd-bottom-120'
         style={{ background: "#f9f9f9" }}
       >
+        
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-lg-6 order-lg-2'>

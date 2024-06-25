@@ -54,9 +54,9 @@ const NavbarOne = () => {
               <img src='/assets/img/logo2.png' alt='Transpro' />
             </div>
           </Link>
-          <div className='nav-phone-wrap'>
+          <div className='nav-phone-wrap' style={{color:'#10194F'}}>
             <FaPhoneAlt />
-            +971 56 7909437
+            +971 56 790 9437
           </div>
           <div className='container p-lg-0'>
             <div className='row'>
@@ -75,7 +75,7 @@ const NavbarOne = () => {
                         fill='#75c8d8'
                       />
                     </svg>
-                    Abu Dhabi, United Arab Emirates
+                    Hamdan St, Block A Bodium Building, Abu Dhabi, UAE
                   </li>
                   <li>
                   <Link to="mailto:ceo@pavilioninv.ae">
@@ -86,7 +86,7 @@ const NavbarOne = () => {
                 </ul>
               </div>
               <div className='col-lg-2 col-md-3'>
-                <ul className='topbar-right social-area text-md-end text-center'>
+                {/* <ul className='topbar-right social-area text-md-end text-center '>
                   <li>
                     <Link to='#'>
                       <FaFacebookF aria-hidden='true' />
@@ -107,7 +107,7 @@ const NavbarOne = () => {
                       <FaInstagram aria-hidden='true' />
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
@@ -158,31 +158,14 @@ const NavbarOne = () => {
               
             >
               <ul className='navbar-nav menu-open'>
-                <li className='menu-item-has-children current-menu-item'>
-                  <Link to='#'>Home</Link>
-                  <ul className='sub-menu'>
-                    <li>
-                      <Link to='/'>Home 01</Link>
-                    </li>
-                    <li>
-                      <Link to='/home-2'>Home 02</Link>
-                    </li>
-                    <li>
-                      <Link to='/home-3'>Home 03</Link>
-                    </li>
-                    <li>
-                      <Link to='/home-4'>Home 04</Link>
-                    </li>
-                    <li>
-                      <Link to='/home-5'>Home 05</Link>
-                    </li>
-                  </ul>
+                <li className='current-menu-item'>
+                  <Link to='/'>Home</Link>
                 </li>
                 <li>
                   <Link to='/about'>About Us</Link>
                 </li>
                 <li>
-                  <Link to='service'>Services</Link>
+                  <Link to='/service'>Services</Link>
                 </li>
                 <li>
                   <Link to='/contact'>Contact Us</Link>

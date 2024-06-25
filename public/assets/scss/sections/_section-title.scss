@@ -7,15 +7,15 @@
   .subtitle {
     font-weight: 600;
     font-size: 16px;
-    color: var(--main-color);
-    background: linear-gradient(
-      180deg,
-      rgba(250, 67, 24, 0) 15.22%,
-      rgba(250, 67, 24, 0.0833333) 33.76%,
-      rgba(250, 67, 24, 0.23) 58.49%,
-      rgba(250, 67, 24, 0.39383) 79.25%,
-      #75c8d8 100%
-    );
+    color: transparent;
+    // background: linear-gradient(
+    //   180deg,
+    //   rgba(250, 67, 24, 0) 15.22%,
+    //   rgba(250, 67, 24, 0.0833333) 33.76%,
+    //   rgba(250, 67, 24, 0.23) 58.49%,
+    //   rgba(250, 67, 24, 0.39383) 79.25%,
+    //   #75c8d8 100%
+    // );
     height: 46px;
     line-height: 46px;
     border-radius: 20px;
@@ -31,7 +31,7 @@
       top: 0;
       height: -webkit-fill-available;
       width: -webkit-fill-available;
-      background: #fff;
+      background: transparent;
       border-radius: 0 0 20px 20px;
       z-index: -1;
       margin: 0 2px 2px;

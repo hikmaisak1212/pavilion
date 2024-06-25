@@ -10,64 +10,47 @@ const WhyChooseUsOne = () => {
         className='wcu-area bg-overlay'
         style={{ background: "url(assets/img/wcu/bg.png)" }}
       >
-        <img className='img-1' src='assets/img/wcu/1.png' alt='Transpro' />
-        <img className='img-2' src='assets/img/wcu/2.png' alt='Transpro' />
+        {/* <img className='img-1' src='assets/img/wcu/1.png' alt='Transpro' />
+        <img className='img-2' src='assets/img/wcu/2.png' alt='Transpro' /> */}
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-xl-7 col-lg-6 order-lg-2'>
               <div className='video-thumb-wrap'>
-                <img src='assets/img/wcu/video.png' alt='Transpro' />
-                <span
-                  className='video-play-btn cursor-pointer'
-                  data-effect='mfp-zoom-in'
-                  onClick={() => setOpen(true)}
-                >
-                  <FaPlay />
-                </span>
+                <img src='assets/img/wcu/video.png' alt='Transpro' style={{borderRadius:'25px', marginTop:'66px'}} />
               </div>
             </div>
             <div className='col-xl-5 col-lg-6 order-lg-1'>
-              <div className='section-title style-white mb-0'>
-                <h4 className='subtitle style-2'>WHY CHOOSE US</h4>
-                <h2 className='title'>WHY CHOOSE FOR US</h2>
+              <div className='section-title style-white mb-0'style={{marginRight:"20px"}}>
+                <h4 className='subtitle style-2'></h4>
+                <h2 className='title'>WHY CHOOSE US</h2>
                 <p className='content'>
-                  Dramatically enhance interactive metrics for reliable
-                  services. Proactively unleash fully researched e-commerce.
+                we nurture enduring partnerships, innovate solutions, and actively contribute to 
+                the advancement and welfare of our associates and the communities we engage with.
                 </p>
               </div>
               <div className='single-wcu-wrap'>
-                <div className='icon'>
-                  <img src='assets/img/wcu/icon-1.png' alt='Transpro' />
-                </div>
                 <div className='details'>
-                  <h6>FAST TRANSPORTION SERVICE</h6>
+                  <h6>UNMATCHED EXPERTISE</h6>
                   <p>
-                    Enhance interactive metrics for reliable services.
-                    Proactively unleash fully researched.
+                  Our team consists of seasoned professionals with extensive knowledge in light, middle, and heavy 
+                  distillates, ensuring top-tier service
+                   and exceptional results.
                   </p>
                 </div>
               </div>
               <div className='single-wcu-wrap'>
-                <div className='icon'>
-                  <img src='assets/img/wcu/icon-2.png' alt='Transpro' />
-                </div>
                 <div className='details'>
-                  <h6>24/7 ONLINE SUPPORT</h6>
+                  <h6>COMMITMENT TO EXCELLENCE</h6>
                   <p>
-                    Enhance interactive metrics for reliable services.
-                    Proactively unleash fully researched.
+                  We are dedicated to delivering superior products and services. Our unwavering commitment to quality, reliability, and customer satisfaction sets us apart in the industry.
                   </p>
                 </div>
               </div>
               <div className='single-wcu-wrap'>
-                <div className='icon'>
-                  <img src='assets/img/wcu/icon-3.png' alt='Transpro' />
-                </div>
                 <div className='details'>
-                  <h6>SAFETY AND RELIABILITY</h6>
+                  <h6>INNOVATIVE SOLUTIONS</h6>
                   <p>
-                    Enhance interactive metrics for reliable services.
-                    Proactively unleash fully researched.
+                  We continuously strive to innovate and provide cutting-edge solutions tailored to our client's needs.
                   </p>
                 </div>
               </div>

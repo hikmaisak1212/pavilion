@@ -41,7 +41,7 @@ const BannerOne = () => {
                   <div className='row'>
                     <div className='col-lg-7 col-md-8'>
                       <div className='banner-inner style-white'>
-                        <h1 className='b-animate-2 title'>
+                        <h1 className='b-animate-2 title' >
                         FUEL DISTRIBUTION AND SUPPLY SERVICES
                         </h1>
                         <p className='b-animate-3 content' style={{fontSize:"18px"}}>
@@ -79,7 +79,7 @@ const BannerOne = () => {
                   <div className='row'>
                     <div className='col-lg-7 col-md-8'>
                       <div className='banner-inner style-white'>
-                        <h1 className='b-animate-2 title'>
+                        <h1 className='b-animate-2 title' >
                         COMPREHENSIVE TRADING SOLUTIONS 
                         </h1>
                         <p className='b-animate-3 content' style={{fontSize:"18px"}}>
@@ -117,11 +117,14 @@ const BannerOne = () => {
                   <div className='row'>
                     <div className='col-lg-7 col-md-8'>
                       <div className='banner-inner style-white'>
-                        <h1 className='b-animate-2 title'>
-                        BROKERAGE AND TRADING SERVICES PROVIDED
+                        <h1 className='b-animate-2 title' >
+                        BROKERAGE AND TRADING SERVICES
                         </h1>
                         <p className='b-animate-3 content' style={{fontSize:"18px"}}>
-                        We operate as a reliable services broker, using our expertise and industry connections to bridge gaps between clients and customized solutions. Our goal is thorough understanding of client needs, leveraging our knowledge and network to deliver tailored services meeting specific business requirements effectively.
+                        We operate as a reliable services broker, using our expertise 
+                        and industry connections to bridge gaps between clients and customized
+                         solutions. Our goal is thorough understanding of client needs, leveraging
+                          our knowledge and network to deliver tailored services meeting specific business requirements .
                         </p>
                         <div className='btn-wrap'>
                           <Link
@@ -155,8 +158,8 @@ const BannerOne = () => {
                   <div className='row'>
                     <div className='col-lg-7 col-md-8'>
                       <div className='banner-inner style-white'>
-                        <h1 className='b-animate-2 title'>
-                        ONSHORE AND OFFSHORE OIL & GAS FIELDS
+                        <h1 className='b-animate-2 title' >
+                        ONSHORE - OFFSHORE OIL & GAS FIELDS
                         </h1>
                         <p className='b-animate-3 content' style={{fontSize:"18px"}}>
                         Our company offers specialized services for onshore and offshore oil and gas fields, providing essential support to the energy sector. We are dedicated to addressing industry challenges, ensuring clients receive comprehensive solutions for operations in diverse environments.
@@ -193,7 +196,7 @@ const BannerOne = () => {
                   <div className='row'>
                     <div className='col-lg-7 col-md-8'>
                       <div className='banner-inner style-white'>
-                        <h1 className='b-animate-2 title'>
+                        <h1 className='b-animate-2 title' >
                         PHARMACEUTICAL PRODUCTS WHOLESALE
                         </h1>
                         <p className='b-animate-3 content' style={{fontSize:"18px"}}>

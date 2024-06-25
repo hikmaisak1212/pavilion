@@ -1,6 +1,6 @@
 import React, { Fragment, Suspense } from "react";
 import Preloader from "../elements/Preloader";
-const Breadcrumb = React.lazy(() => import("../components/Breadcrumb"));
+const BreadcrumbServices = React.lazy(() => import("../components/BreadcrumbServices"));
 const ContactOne = React.lazy(() => import("../components/ContactOne"));
 const FooterBottomOne = React.lazy(() =>
   import("../components/FooterBottomOne")
@@ -18,18 +18,18 @@ const Service = () => {
           <NavbarOne />
 
           {/* Breadcrumb */}
-          <Breadcrumb title={"SERVICES"} />
+          <BreadcrumbServices title={"SERVICES"} />
 
           {/* Service One All */}
           <ServiceOneAll />
 
           {/* Contact One */}
-          <div className='call-to-contact-area pd-top-140  mt-0'>
+          {/* <div className='call-to-contact-area pd-top-140  mt-0'>
             <ContactOne />
-          </div>
+          </div> */}
 
           {/* Partner One */}
-          <PartnerOne />
+          {/* <PartnerOne /> */}
 
           {/* Footer One */}
           <FooterOne />

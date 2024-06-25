@@ -23,7 +23,7 @@ const VideoAreaOne = () => {
               >
                 <div className='section-title style-white mb-0'>
                   <h2 className='title'>
-                    NEED ANY HELP? GET CONSULTATION
+                    NEED ANY HELP?
                   </h2>
                 </div>
                 <div className='single-cta-wrap'>
@@ -34,7 +34,7 @@ const VideoAreaOne = () => {
                   </Link>
                   <div className='details'>
                     {/* <h6>Have Any Question</h6> */}
-                    <h3>+971 56 790 9437</h3>
+                    <h3>056 790 9437</h3>
                   </div>
                 </div>
                 <Link className='btn btn-white' to='/contact'>

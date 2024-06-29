@@ -1,6 +1,4 @@
 import React from "react";
-import { FaArrowRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const ServiceOneAll = () => {
   return (
@@ -91,8 +89,7 @@ const ServiceOneAll = () => {
                 <div className='details'>
                   <h5>ONSHORE - OFFSHORE OIL & GAS FIELDS</h5>
                   <p>
-                  Our company offers specialized services for onshore and offshore oil and gas fields, providing 
-                  essential support to the energy sector.
+                  Our company offers specialized services for onshore and offshore oil and gas fields, providing essential support to the energy sector. We ensure efficient project execution and compliance with industry standards, enhancing operational performance and safety.
                   </p>
                 </div>
               </div>
@@ -100,7 +97,7 @@ const ServiceOneAll = () => {
             <div className='col-lg-4'>
               <div className='single-service-wrap'>
                 <div className='thumb'>
-                  <img src='assets/img/service/s5.png' alt='Transpro' />
+                  <img src='assets/img/service/s6.png' alt='Transpro' />
                   <div className='icon'>
                     <img
                       src='assets/img/service/service-icon-5.png'
@@ -109,35 +106,70 @@ const ServiceOneAll = () => {
                   </div>
                 </div>
                 <div className='details'>
-                  <h5>BROKERAGE AND TRADING SERVICES</h5>
+                  <h5>ASSETS & PROJECTS MANAGEMENTS</h5>
                   <p>
-                  We operate as a reliable services broker, using our expertise 
-                        and industry connections to bridge gaps between clients and customized
-                         solutions.
+                  provides this kind of services through annual contract covers the commercial, technical and operational concern in the buildings& assets،this services normally cover the complete management of asset, also  involve of providing of full services and operation to  the assets and buildings
                   </p>
                 </div>
               </div>
             </div>
-            {/* <div className='col-lg-4'>
+            <div className='col-lg-4'>
               <div className='single-service-wrap'>
                 <div className='thumb'>
-                  <img src='assets/img/service/6.png' alt='Transpro' />
+                  <img src='assets/img/service/s7.png' alt='Transpro' />
                   <div className='icon'>
                     <img
-                      src='assets/img/service/service-icon-6.png'
+                      src='assets/img/service/service-icon-5.png'
                       alt='Transpro'
                     />
                   </div>
                 </div>
                 <div className='details'>
-                  <h5>LAND TRANSPORTATION</h5>
+                  <h5>INTERIOR ENGINEERING DESIGN SERVICES</h5>
                   <p>
-                    Intrinsicly exploit e-business imperative with emerging
-                    human capital.
+                  Our works cover all the works inside the essets & buildings which involved of making suitable design for furnishings, selection of curtain and colours, also can extend to landscapes, interior designer can interferes in light and lamps distribution, selection and set up of decoration.
                   </p>
                 </div>
               </div>
-            </div> */}
+            </div>
+            <div className='col-lg-4'>
+              <div className='single-service-wrap'>
+                <div className='thumb'>
+                  <img src='assets/img/service/s8.png' alt='Transpro' />
+                  <div className='icon'>
+                    <img
+                      src='assets/img/service/service-icon-5.png'
+                      alt='Transpro'
+                    />
+                  </div>
+                </div>
+                <div className='details'>
+                  <h5>MECHANICAL, ELECTRICAL & PLUMBING SERVICES</h5>
+                  <p>
+                  This activity of services in the assets and buildings usually cover the technical service and also address the new installation works in the assets  & buildings in the following areas : Mechanical engineering, Electrical engineering and Plumbing
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div className='single-service-wrap'>
+                <div className='thumb'>
+                  <img src='assets/img/service/s9.png' alt='Transpro' />
+                  <div className='icon'>
+                    <img
+                      src='assets/img/service/service-icon-5.png'
+                      alt='Transpro'
+                    />
+                  </div>
+                </div>
+                <div className='details'>
+                  <h5>PROJECT PORTFOLIO MANAGEMENT SERVICES</h5>
+                  <p>
+                  Our PPM consulting services help organizations select, prioritize, and manage their project portfolios to align with their goals. We optimize resource allocation, mitigate risks, and track performance to ensure success.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

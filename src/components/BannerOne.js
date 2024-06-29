@@ -32,6 +32,7 @@ const BannerOne = () => {
       <div className='banner-area banner-area-1'>
         <div className='banner-slider owl-carousel'>
           <Slider {...settings}>
+
           <div>
               <div
                 className='item'
@@ -70,6 +71,7 @@ const BannerOne = () => {
                 </div>
               </div>
             </div>
+
             <div>
               <div
                 className='item'
@@ -108,6 +110,7 @@ const BannerOne = () => {
                 </div>
               </div>
             </div>
+
             <div>
               <div
                 className='item'
@@ -149,6 +152,7 @@ const BannerOne = () => {
                 </div>
               </div>
             </div>
+
             <div>
               <div
                 className='item'
@@ -187,6 +191,7 @@ const BannerOne = () => {
                 </div>
               </div>
             </div>
+
             <div>
               <div
                 className='item'
@@ -202,6 +207,162 @@ const BannerOne = () => {
                         <p className='b-animate-3 content' style={{fontSize:"18px"}}>
                         We serve as a trusted wholesale distributor of para-pharmaceutical products, offering a diverse range of high-quality healthcare solutions. Our commitment to excellence ensures delivery of superior products meeting varied needs of the healthcare industry, fostering trust in every transaction.
                         </p>
+                        <div className='btn-wrap'>
+                          <Link
+                            className='btn btn-base b-animate-4'
+                            to='/service'
+                            //style={{backgroundColor:'transparent'}}
+                          >
+                            {" "}
+                            Explore The Services
+                          </Link>
+                          <Link
+                            className='btn btn-white b-animate-4'
+                            to='/contact'
+                            //style={{backgroundColor:'transparent',color:'white'}}
+                          >
+                            Contact Us
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div
+                className='item'
+                style={{ backgroundImage: 'url("./assets/img/banner/6.png")' }}
+              >
+                <div className='container'>
+                  <div className='row'>
+                    <div className='col-lg-7 col-md-8'>
+                      <div className='banner-inner style-white'>
+                        <h1 className='b-animate-2 title' >
+                        ASSETS & PROJECTS MANAGEMENT
+                        </h1>
+                        <p className='b-animate-3 content' style={{fontSize:"18px"}}>
+                        PAVILION INVESTMENT provides this kind of services through annual contract covers the commercial, technical and operational concern in the buildings& assets،this services normally cover the complete management of asset, also  involve of providing of full services and operation to  the assets and buildings
+                        </p>
+                        <div className='btn-wrap'>
+                          <Link
+                            className='btn btn-base b-animate-4'
+                            to='/service'
+                            //style={{backgroundColor:'transparent'}}
+                          >
+                            {" "}
+                            Explore The Services
+                          </Link>
+                          <Link
+                            className='btn btn-white b-animate-4'
+                            to='/contact'
+                            //style={{backgroundColor:'transparent',color:'white'}}
+                          >
+                            Contact Us
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div
+                className='item'
+                style={{ backgroundImage: 'url("./assets/img/banner/7.png")' }}
+              >
+                <div className='container'>
+                  <div className='row'>
+                    <div className='col-lg-7 col-md-8'>
+                      <div className='banner-inner style-white'>
+                        <h1 className='b-animate-2 title' >
+                        INTERIOR ENGINEERING DESIGN SERVICES
+                        </h1>
+                        <p className='b-animate-3 content' style={{fontSize:"18px"}}>
+                        Our works cover all the works inside the essets & buildings which involved of making suitable design for furnishings, selection of curtain and colours, also can extend to landscapes, interior designer can interferes in light and lamps distribution, selection and set up of decoration.
+                        </p>
+                        <div className='btn-wrap'>
+                          <Link
+                            className='btn btn-base b-animate-4'
+                            to='/service'
+                            //style={{backgroundColor:'transparent'}}
+                          >
+                            {" "}
+                            Explore The Services
+                          </Link>
+                          <Link
+                            className='btn btn-white b-animate-4'
+                            to='/contact'
+                            //style={{backgroundColor:'transparent',color:'white'}}
+                          >
+                            Contact Us
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div
+                className='item'
+                style={{ backgroundImage: 'url("./assets/img/banner/8.png")' }}
+              >
+                <div className='container'>
+                  <div className='row'>
+                    <div className='col-lg-7 col-md-8'>
+                      <div className='banner-inner style-white'>
+                        <h1 className='b-animate-2 title' >
+                        MECHANICAL, ELECTRICAL & PLUMBING SERVICES
+                        </h1>
+                        <p className='b-animate-3 content' style={{fontSize:"18px"}}>
+                        This activity of services in the assets and buildings usually cover the technical service and also address the new installation works in the assets  & buildings in the following areas : Mechanical engineering, Electrical engineering and Plumbing
+                        </p>
+                        <div className='btn-wrap'>
+                          <Link
+                            className='btn btn-base b-animate-4'
+                            to='/service'
+                            //style={{backgroundColor:'transparent'}}
+                          >
+                            {" "}
+                            Explore The Services
+                          </Link>
+                          <Link
+                            className='btn btn-white b-animate-4'
+                            to='/contact'
+                            //style={{backgroundColor:'transparent',color:'white'}}
+                          >
+                            Contact Us
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div
+                className='item'
+                style={{ backgroundImage: 'url("./assets/img/banner/9.png")' }}
+              >
+                <div className='container'>
+                  <div className='row'>
+                    <div className='col-lg-7 col-md-8'>
+                      <div className='banner-inner style-white'>
+                        <h1 className='b-animate-2 title' >
+                        PROJECT PORTFOLIO MANAGEMENT SERVICES
+                        </h1>
+                        <p className='b-animate-3 content' style={{fontSize:"18px"}}>
+                        Our PPM consulting services help organizations select, prioritize, and manage their project portfolios to align with their goals. We optimize resource allocation, mitigate risks, and track performance to ensure success. Enhance decision-making and boost efficiency with our expert PPM solutions.
+                                                </p>
                         <div className='btn-wrap'>
                           <Link
                             className='btn btn-base b-animate-4'

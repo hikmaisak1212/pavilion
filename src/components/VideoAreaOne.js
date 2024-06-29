@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const VideoAreaOne = () => {

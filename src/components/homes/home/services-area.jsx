@@ -51,8 +51,8 @@ const  service_data = [
         id: 6,
         icon: "assets/img/service/sv-icon-5.png",
         img: "assets/img/service/sv-icon-5.png",
-        title: "Distillate Solutions",
-        description: <>Our skilled team consists of seasoned experts specializing in light, middle, and heavy distillates, ensuring top-tier service.</>,
+        title: "Assets & projects management",
+        description: <>We provides this kind of services through annual contract covers the commercial, technical and operational concern in the buildings& assets،</>,
         delay: ".9s",
     },
 
@@ -102,11 +102,11 @@ const ServicesArea = () => {
                                     <img src={item.img} alt="theme-pure" />
                                 </div>
                                 <div className="tp-service__content">
-                                    <h3 className="tp-service__title-sm tp-yellow-color"><Link href="/service-details">{item.title}</Link></h3>
+                                    <h3 className="tp-service__title-sm tp-yellow-color"><Link to="service">{item.title}</Link></h3>
                                     <p>{item.description}</p>
                                 </div>
                                 <div className="tp-service__link">
-                                    <Link href="/service-details">
+                                    <Link to="service">
                                         <RightArrow /> 
                                     </Link>
                                 </div>

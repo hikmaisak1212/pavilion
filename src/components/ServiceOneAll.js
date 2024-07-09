@@ -7,10 +7,10 @@ const ServiceOneAll = () => {
       <div className='service-area style-2 pd-top-115 pd-bottom-80'>
         <div className='container'>
           <div className='row justify-content-center'>
-            <div className='col-lg-7'>
+            <div className='col-lg-8'>
               <div className='section-title text-center'>
                 <h4 className='subtitle'>SERVICES</h4>
-                <h2 className='title'>Unmatched Expertise, Tailored Solutions</h2>
+                <h2 className='title'>Destinguished Expertise, Tailored Solutions</h2>
                 <p>
                 Our expert team ensures top-tier service and industry-leading knowledge. Committed to quality and innovation, we drive success and foster sustainable growth for your Business.
                 </p>
@@ -108,7 +108,8 @@ const ServiceOneAll = () => {
                 <div className='details'>
                   <h5>ASSETS & PROJECTS MANAGEMENTS</h5>
                   <p>
-                  provides this kind of services through annual contract covers the commercial, technical and operational concern in the buildings& assets،this services normally cover the complete management of asset, also  involve of providing of full services and operation to  the assets and buildings
+                  PAVILION INVESTMENT normaly provides this kind of services through annual contract covers the commercial, technical and operational concern in the buildings& assets،this services normally cover the complete management of asset, also  involve of providing of full services and operation to  the assets and buildings
+In addition to the market survey and forecasting of any risk involvement expectation and  adoption of correct solutions at the right time plus other services indicate in the said  agreement like waste management
                   </p>
                 </div>
               </div>

@@ -11,6 +11,7 @@ const FooterOne = React.lazy(() => import("../components/FooterOne"));
 const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
 const TestimonialOne = React.lazy(() => import("../components/TestimonialOne"));
 const WhyChooseUsOne = React.lazy(() => import("../components/WhyChooseUsOne"));
+const HeroArea = React.lazy(() => import("../components/homes/home-2/hero-area"));
 const HomeOne = () => {
   return (
     <>
@@ -21,8 +22,9 @@ const HomeOne = () => {
           {/* Navbar One */}
           <NavbarOne />
           {/* Banner One */}
-          <BannerOne />
+          <HeroArea/>
           <AboutArea/>
+          {/* <BannerOne /> */}
            {/* About One */}
            <div style={{backgroundColor:'#080c24'}}>
           <AboutOne />

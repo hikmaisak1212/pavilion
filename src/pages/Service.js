@@ -9,6 +9,7 @@ const FooterOne = React.lazy(() => import("../components/FooterOne"));
 const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
 const PartnerOne = React.lazy(() => import("../components/PartnerOne"));
 const ServiceOneAll = React.lazy(() => import("../components/ServiceOneAll"));
+const BannerOne = React.lazy(() => import("../components/BannerOne"));
 const Service = () => {
   return (
     <>
@@ -18,7 +19,7 @@ const Service = () => {
           <NavbarOne />
 
           {/* Breadcrumb */}
-          <BreadcrumbServices title={"SERVICES"} />
+          <BannerOne />
 
           {/* Service One All */}
           <ServiceOneAll />

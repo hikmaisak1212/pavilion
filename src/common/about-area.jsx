@@ -31,9 +31,10 @@ const about_content = {
     of quality, dependability, and client contentment.</>,
 
     about_list: [
-        <>Top-tier products and services</>,
-        <>Innovate solutions</>,
-        <>Mutually beneficial collaborations.</>,
+        <>General logistics services</>,
+        <>Full facilities management</>,
+        <>Commercial brokerage</>,
+        <>General Trading</>,
     ],
     btn_text: "About Us",
 

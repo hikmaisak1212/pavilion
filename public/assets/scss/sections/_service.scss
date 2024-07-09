@@ -10,7 +10,14 @@
     }
     .single-service-wrap .details {
       padding: 40px 29px 30px;
+      max-height:360px; /* Altura inicial del contenedor */
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
     }
+    .single-service-wrap .details:hover {
+      max-height: 900px; /* Altura máxima al hacer hover */
+  }
+  
   }
 }
 .single-service-wrap {
